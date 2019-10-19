@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>reportAI</title>
+  </head>
+  <body>
+    <h1>レポート作成</h1>
+    <form>
+     <!--<input type="text" id="title" placeholder="題名を入力">-->
+     <input type="text" placeholder="文字数を入力">
+     <select class="select" style="width:40px;height:40px;background:white;border-color:black;outline:0;font-size:16px">
+　　　　<option name="select" value="">1</option>
+　　　　<option name="select" value="">2</option>
+　　　　<option name="select" value="">3</option>
+　　　</select>
+    </form>
+    <textarea class="tx"></textarea>
+    <input type="button" class="button" value=生成 style="width:auto;background:white" onclick="">
+    <script type="text/javascript">
+    </script>
+    <style>
+      body{
+        text-align:center;
+      }
+      input {
+       /*border:none;*/
+       width:30%;
+       height:10%;
+       min-height:10px;
+       min-width:150px;
+       border:solid 0.5px #333;
+       border-color:black;
+       border-radius:20px;
+       padding:2px 8px;
+       font-size:24px;
+       box-shadow: none;
+      }
+      input:focus{
+       outline:0;
+      }
+      h1 {
+        color:gray;
+      }
+
+      .tx{
+        margin-top:10px;
+        height:60vh;
+        width:90%;
+        background:#f5f5f5;
+        pointer-events:none;
+      }
+      .tx:focus{
+       outline:0;
+      }
+
+    </style>
+  </body>
+</html>
